@@ -29,10 +29,6 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
-    <AotAssemblies>false</AotAssemblies>
-    <EnableLLVM>false</EnableLLVM>
-    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TestEF\TestEF.csproj">
-      <Project>{C10521D4-9452-42C6-BCB0-C57E829B9233}</Project>
+      <Project>{BC67EC89-040F-4A80-81C7-6FAFD12FFEF0}</Project>
       <Name>TestEF</Name>
     </ProjectReference>
   </ItemGroup>
